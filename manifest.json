@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+	"name": "Who dis?",
+	"description": "An electro bio-mechanical neural transmitting zero synapse repositioner.",
+	"version": "0.1",
+	"browser_action": {
+		"default_title": "Who dis?"
+	},
+	"permissions": ["activeTab", "cookies", "<all_urls>"],
+	"background": {
+		"scripts": ["background/cookie_eliminate.js"],
+		"persistent": false
+	}
+}
